@@ -1,0 +1,120 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;font-family: 'Nunito', sans-serif;color: white;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+#page1{
+  height: 100%;
+  width: 100%;
+  background: #000;
+  padding: 0 50px;
+}
+#nav{
+  height: 100px;
+  width: 100%;
+  /* background-color: red; */
+  border-bottom:1px solid #dadada;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+#nav h3{
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#nav-2{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+#container{
+  height: 70%;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  gap: 20px;
+}
+#left{
+  width: 50%;
+  /* background-color: blue; */
+}
+#left1{
+  font-size: 36px;
+  /* background-color: gray; */
+
+  width: 90%;
+  height: 70%;
+  padding: 0px 80px;
+  letter-spacing:0px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-right: 90px;
+  padding-top:50px ;
+  border-bottom:2px solid #dadada;
+}
+#left2{
+  margin-top: 20px;
+  width:90% ;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+#left img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-left: -20px;
+  border: 5px solid black;
+}
+#Ideas-h1{
+  display: flex;
+  align-items: center;
+}
+#right{
+  width: 50%;
+  /* background-color: blue; */
+  overflow: hidden;
+}
+#right img{
+  height: 85%;
+  border-radius: 10px;
+  object-fit: contain;
+  margin-top: 50px;
+  
+
+}
+#page2{
+  height: 100%;
+  width: 100%;
+  background: #000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.box{
+  height: 300px;
+  width: 300px;
+  border: 2px solid white;
+  border-radius: 15px;
+  text-align: center;
+  padding: 30px;
+}
+.box h1{
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.box hr{
+  margin-bottom: 30px;
+}
+.box p{
+  font: 20px;
+  font-weight: 600;
+}
